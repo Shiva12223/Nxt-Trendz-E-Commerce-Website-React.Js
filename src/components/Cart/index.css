@@ -1,0 +1,75 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  width: 90%;
+  max-width: 1110px;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+.cart-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.clear-cart-btn {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+  color: #0a1118;
+}
+
+.grand-total-card {
+  display: flex;
+  height: 50%;
+  width: 80%;
+  align-items: flex-end;
+  align-self: flex-end;
+
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.responsive-total-card {
+  width: 60%;
+  padding: 10px;
+}
